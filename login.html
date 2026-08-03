@@ -16,20 +16,18 @@
         </nav>
     </header>
 
-    <main class="login">
-        <section class="formulario">
-            <form>
-                <h1>Entrar</h1><br>
-                <label for="email">Email: </label><br>
-                <input name="email-login" placeholder="Email" id="email-login" type="text"><br><br>
-                <label for="senha">Senha: </label><br>
-                <input name="senha-login" placeholder="Senha" id="senha-login" type="password"><br><br>
-                <input value="Logar" type="submit"><br><br>
-                <a href="cadastro.html">Não tem uma conta ainda? Cadastrar</a>
-            </form>
-        </section>
+    <div class="formulariocadastro">
+         <h2>Cadastro</h2>
+          <form>
+             <label class="nomecadastro" for="nome"> Digite seu nome: </label><br>
+              <input type="text" id="nome" placeholder="Nome:"><br>
+                       <label class="nomecadastro" for="senha">Crie uma senha: </label><br> 
+                       <input type="password" id="senha" placeholder="Senha:"><br>
+                       <input class="enviar" type="submit" placeholder="criar conta"><br>
+                        <a class="link" href="cadastro.html"><p>Nao possui uma conta?</p>cadastrar agora.</a>
+                     </form>
     </main>
-
+</div>
     <footer class="footer">
         <p>&copy; 2026 Biblioteca Selim. Todos os direitos reservados.</p>
         <p>📍 Ipatinga - MG</p>

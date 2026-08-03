@@ -16,24 +16,22 @@
         </nav>
     </header>
 
-    <main class="cadastro">
-            <section class="formulario">
-                <form>
-                    <h1>Cadastro</h1><br>
-                    <label for="nome-cadastro">Nome Completo: </label><br>
-                    <input name="nome-cadastro" placeholder="Nome" id="nome-cadastro" type="text"><br><br>
-                    <label for="matricula-cadastro">Matrícula: </label><br>
-                    <input name="matricula-cadastro" placeholder="Matrícula" id="matricula-cadastro" type="text"><br><br>
-                    <label for="email-cadastro">Email: </label><br>
-                    <input name="email-cadastro" placeholder="Email" id="email-cadastro" type="text"><br><br>
-                    <label for="senha">Senha: </label><br>
-                    <input name="senha-cadastro" placeholder="Senha" id="senha-cadastro" type="password"><br><br>
-                    <input value="Cadastrar" type="submit"><br><br>
-                    <a href="login.html">Já possui uma conta? Fazer Login.</a>
-                </form>
-            </section>
-    </main>
-
+    <div class="formulariocadastro"> 
+        <h2>Cadastro</h2> 
+        <form>
+             <label class="nomecadastro" for="nome"> Digite seu nome: </label><br>
+              <input type="text" id="nome" placeholder="Nome:"><br>
+               <label class="nomecadastro" for="tipo">Escolha seu usuario: </label><br> 
+               <input list="user" type="text" id="tipo" placeholder="Digite aqui..."><br> 
+               <datalist id="user"> <option>Aluno</option> <option>Professor</option>
+             </datalist> <label class="nomecadastro" for="matricula">Digite sua matricula: </label><br>
+              <input type="text" id="matricula" placeholder="Matricula: "><br>
+               <label class="nomecadastro" for="senha">Crie uma senha: </label><br>
+                <input type="password" id="senha" placeholder="Senha:"><br> 
+                <input class="enviar" type="submit" placeholder="criar conta"><br> 
+                <a class="link" href="login.html"><p> possui uma conta?</p> fazer login.</a>
+     </form>
+    </div>
     <footer class="footer">
         <p>&copy; 2026 Biblioteca Selim. Todos os direitos reservados.</p>
         <p>📍 Ipatinga - MG</p>

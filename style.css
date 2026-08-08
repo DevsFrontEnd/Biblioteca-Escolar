@@ -4,6 +4,8 @@
 }
 body{
     background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
 }
 
 header{
@@ -57,12 +59,7 @@ footer{
     text-align: center;
     padding: 10px;
      box-shadow: 10px #3e5288;
-}
-
-.footer{
-    bottom: 0;
-    position: fixed;
-    z-index: 1000;
+    margin-top: auto;
 }
 
 /* Index */
